@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Copy Email</title>
+    <script>
+        window.onload = function() {
+            navigator.clipboard.writeText("sidorukkostya998@outlook.com")
+                .then(() => {
+                    window.close();
+                })
+                .catch(err => {
+                    alert("Скопируйте вручную: sidorukkostya998@outlook.com");
+                    window.close();
+                });
+        };
+    </script>
+</head>
+<body>
+    <p>Костыли, но главное чтобы работали D:</p>
+</body>
+</html>
